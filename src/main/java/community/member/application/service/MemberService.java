@@ -1,6 +1,5 @@
 package community.member.application.service;
 
-import community.member.adapter.in.dto.MemberResponse;
 import community.member.application.port.in.JoinUseCase;
 import community.member.application.port.in.MemberListQuery;
 import community.member.application.port.in.MemberUpdateUseCase;
@@ -23,7 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 @Slf4j
 @RequiredArgsConstructor
-public class JoinMemberService implements JoinUseCase, MemberListQuery, MemberUpdateUseCase {
+public class MemberService implements JoinUseCase, MemberListQuery, MemberUpdateUseCase {
 
     private final SaveMemberPort saveMemberPort;
     private final GetMemberListPort getMemberListPort;

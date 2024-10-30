@@ -1,6 +1,6 @@
 package community.member.adapter.in.web;
 
-import community.member.adapter.in.common.Response;
+import community.common.Response;
 import community.member.adapter.in.dto.JoinRequest;
 import community.member.adapter.in.dto.MemberResponse;
 import community.member.adapter.in.dto.MemberUpdateRequest;

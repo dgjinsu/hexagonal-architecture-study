@@ -1,4 +1,4 @@
-package community.member.adapter.in.common;
+package community.common;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
