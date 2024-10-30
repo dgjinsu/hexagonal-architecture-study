@@ -45,4 +45,9 @@ public class MemberEntity {
             .name(member.getName())
             .build();
     }
+
+    public void updateMember(Member member) {
+        this.password = member.getPassword();
+        this.name = member.getName();
+    }
 }
