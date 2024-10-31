@@ -1,4 +1,4 @@
-package community.common;
+package community.global.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
